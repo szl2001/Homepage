@@ -1,0 +1,19 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "DIP"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "&copy;"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
